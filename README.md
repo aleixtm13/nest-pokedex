@@ -10,3 +10,7 @@
 
 4. Thow up the database
     - Execute ```docker-compose up -d```
+
+## Main stack
+* NestJS
+* MongoDB
