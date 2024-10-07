@@ -10,6 +10,9 @@
 
 4. Thow up the database
     - Execute ```docker-compose up -d```
+5. Rebuild the database
+    - ``` localhost:3000/api/v2/seed``` 
+    
 
 ## Main stack
 * NestJS
