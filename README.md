@@ -7,10 +7,12 @@
 2. Execute ```npm install```
 3. Tener Nest CLI instalado
     - Ejecutar ```npm install -g @nestjs/cli```
-
-4. Thow up the database
+4. Clone archive __.env.template__ and rename the copy to __.env.__
+5. Fill the environment variables with the values of the __.env__ file
+6. Execute ```npm run start:dev```
+7. Thow up the database
     - Execute ```docker-compose up -d```
-5. Rebuild the database
+8. Rebuild the database
     - ``` localhost:3000/api/v2/seed``` 
     
 
