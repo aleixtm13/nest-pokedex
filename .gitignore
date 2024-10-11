@@ -56,3 +56,12 @@ pids
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 /mongo
+mongo/collection-4--9162548885225697889.wt
+mongo/index-5--9162548885225697889.wt
+mongo/index-6--9162548885225697889.wt
+mongo/sizeStorer.wt
+mongo/WiredTiger.turtle
+mongo/WiredTiger.wt
+mongo/diagnostic.data/metrics.2024-09-20T10-15-11Z-00000
+mongo/diagnostic.data/metrics.interim
+mongo/journal/WiredTigerLog.0000000001
