@@ -13,7 +13,9 @@ export class SeedService {
     @InjectModel(Pokemon.name)
     private readonly pokemonModel: Model<Pokemon>,
     private readonly http: AxiosAdapter
-  ) {}
+  ) {
+    console.log(process.env)
+  }
   
   async executeSeed() {
     await this.pokemonModel.deleteMany({});

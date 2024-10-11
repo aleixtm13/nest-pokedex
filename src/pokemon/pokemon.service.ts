@@ -29,7 +29,7 @@ export class PokemonService {
   }
 
   findAll(queryParameters: PaginationDto) {
-    const {limit  = 10, offset = 0} = queryParameters;
+    const {limit  = +process.env.DEFAULT_LIMIT, offset = 0} = queryParameters;
     return this.pokemonModel.find().limit(limit).skip(offset).sort({no: 1});
   }
 
