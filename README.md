@@ -14,7 +14,13 @@
     - Execute ```docker-compose up -d```
 8. Rebuild the database
     - ``` localhost:3000/api/v2/seed``` 
-    
+
+# Build steps for production
+1. Create __.env.prod__
+2. Fill the environment variables with the values of the __.env.prod__ file
+3. Build the image ```docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build```
+4. Run the image ```docker-compose -f docker-compose.prod.yaml --env-file .env.prod up```
+
 
 ## Main stack
 * NestJS
